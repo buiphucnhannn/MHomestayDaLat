@@ -69,7 +69,7 @@ export default function Testimonials() {
     "hidden lg:flex absolute top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full border border-white/20 bg-[#09231B] text-stone-300 hover:text-[#0D2B22] hover:bg-[#D7A75C] hover:border-[#D7A75C] items-center justify-center transition-all duration-300 cursor-pointer shadow-lg";
 
   return (
-    <section id="testimonials" data-nav-theme="dark" className="relative w-full bg-[#0D2B22] text-white pt-8 md:pt-10 pb-14 md:pb-16 overflow-hidden">
+    <section id="testimonials" data-nav-theme="dark" className="relative w-full bg-[#0D2B22] text-white pt-8 md:pt-10 pb-4 md:pb-6 overflow-hidden">
       <div className="absolute -top-10 right-0 w-48 h-64 opacity-20 pointer-events-none z-0">
         <BotanicalBranch flip color="#D7A75C" />
       </div>
